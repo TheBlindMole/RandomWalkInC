@@ -1,9 +1,17 @@
-Random Walk in C
+# Random Walk in C
 
-#Using terminal
+### Using terminal
 
-how to run the file: ./random-walk
-how to compile: gcc random-walk.c -o random-walk $(pkg-config --cflags --libs sdl2)
+**How to compile:**
+```bash
+gcc random-walk.c -o random-walk \$(pkg-config --cflags --libs sdl2)
+```
 
-<img src="https://github.com/TheBlindMole/RandomWalkInC/blob/main/IMG.png?raw=true" alt="image" width="500">
+**How to run the file:**
+```bash
+./random-walk
+```
+
+<img src="IMG.png" alt="Random Walk Preview" width="500">
+
 
